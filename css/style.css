@@ -1,5 +1,150 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+:root{
+    --preto: black;
+    --branco: white;
+    --primaria: #5483FB;
+    --segundaria: #2E1789;
+    --terciaria:linear-gradient(180deg, #009D9D 0%, #A1CCFF 100%);
+}
+body{
+    background-color: var(--primaria);
+    text-align: center;
+}
+.div-centralizada{
+    background: var(--segundaria);
+    margin-bottom: 40px;
+}
+img{
+    width: 200px;
+}
+
+.login {
+    width: 500px;
+    margin: 20px auto;
+    background-color: var(--segundaria);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid var(--segundaria);
+    text-align: center;
+    box-shadow: 14px 15px 17px rgba(0, 0, 0, 0.25);
+}
+
+.botoes {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.botoes > a{
+    background:  linear-gradient(180deg, #009D9D 0%, #A1CCFF 100%);
+    color: white;
+    padding: 10px 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid  var(--terciaria);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px var(--terciaria);
+    margin-right: 18px;
+    display: flex;
+    }
+.botoes > a:hover{
+    background: linear-gradient(180deg, #009d9d84 0%, #a1cbffc3 100%);
+}
+h1 {
+    color: var(--branco);
+    text-shadow: 1px 1px 2px var(--preto);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+input{
+    border: none;
+    border-radius: 20px double brown;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+body >.login > .div-centralizada{
+    text-align: center;
+}
+.img2{
+    width: 200px;
+}
+.botao-cadrastar{
+    background:  linear-gradient(180deg, #009D9D 0%, #A1CCFF 100%);
+    color: white;
+    padding: 10px 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid  var(--terciaria);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px var(--terciaria);
+    margin-right: 18px;
+}
+.botao-cadrastar:hover{
+    background: linear-gradient(180deg, #009d9d84 0%, #a1cbffc3 100%);
+}
+.img3{
+    width: 20px;
+    height: 20px;
+}
+.botao-padrao{
+    background:  linear-gradient(180deg, #009D9D 0%, #A1CCFF 100%);
+    color: white;
+    padding: 10px 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid  var(--terciaria);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px var(--terciaria);
+    margin-right: 18px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botao-padrao:hover{
+    background: linear-gradient(180deg, #009d9d84 0%, #a1cbffc3 100%);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes2{
+    display: flex;
+    align-items: center;
+}
+input{
+    margin-top: 20px;
+}
+.botoes2 > input > a{
+    display: flex;
+    justify-content: center;
+}
+.saiba-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img4{
+    width: 500px;
+}
+hr{
+    background-color: var(--preto);
+}
+.image{
+    width: 200px;
+}
+.image2{
+    width: 200px;
 }
