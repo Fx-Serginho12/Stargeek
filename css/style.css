@@ -249,6 +249,19 @@ h2 {
     border-radius: 20px;
     box-shadow:darkblue;
 }
+.lojas {
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.lojas::-webkit-scrollbar{
+    display: none;
+}
+.lojas > img{
+    border-radius: 20px;
+    box-shadow:darkblue;
+}
 .wandinha:hover{
     content: url(../img/wandinha.gif);
 }
@@ -305,6 +318,33 @@ h2 {
 }
 .demonjogo:hover{
     content: url(../img/2631300871_preview_heavyblockusage.gif);
+}
+.encanto:hover{
+    content: url(../img/Encanto-Wallpaper-GIF.gif);
+}
+.red:hover{
+    content: url(../img/red.gif);
+}
+.trolls:hover{
+    content: url(../img/trolls.gif);
+}
+.scoob-o-filme:hover{
+    content: url(../img/Scoob!\ 1.gif);
+}
+.myhero:hover{
+    content: url(../img/myhero.gif);
+}
+.dragonball:hover{
+    content: url(../img/dragonBoll.gif);
+}
+.gato:hover{
+    content: url(../img/gato.gif);
+}
+.Fary_tail:hover{
+    content: url(../img/5tkm.gif);
+}
+.avatar:hover{
+    content: url(../img/kiri-spirit-tree.gif);
 }
 @media (max-width:500px) {
     .logo{
