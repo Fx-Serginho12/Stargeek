@@ -346,6 +346,69 @@ h2 {
 .avatar:hover{
     content: url(../img/kiri-spirit-tree.gif);
 }
+.chiquititas:hover{
+    content: url(../img/Chiquititas.gif);
+}
+.pequeno:hover{
+    content: url(../img/PéPequeno.gif);
+}
+.monica:hover{
+    content: url(../img/MonicaLaços.gif);
+}
+.moana:hover{
+    content: url(../img/moana-ocean.gif);
+}
+.carrossel2:hover{
+    content: url(../img/Carrossel_O_Filme_2_O_Sumi_o_de_Maria_Joaquina.gif);
+}
+.crepusculo:hover{
+    content: url(../img/crepusculo.gif);
+}
+.lua-nova:hover{
+    content: url(../img/crepusculo-lua-nova.gif);
+}
+.eclipse:hover{
+    content: url(../img/crepusculo-eclipse.gif);
+}
+.amanhecer-1:hover{
+    content: url(../img/crepusculo-amanhecer-parte-1.gif);
+}
+.amanhecer-2:hover{
+    content: url(../img/crepusculo-amanhecer-2.gif);
+}
+.nanatsu-no-taizai:hover{
+    content: url(../img/Nanatsu\ No\ Taizai\ Ban\ And\ Meliodas.gif);
+}
+.one-piece:hover{
+    content: url(../img/one-piece.gif);
+}
+.punch-man:hover{
+    content: url(../img/punch-man.gif);
+}
+.black:hover{
+    content: url(../img/black_clover.gif); 
+}
+.pokemon:hover{
+    content: url(../img/pokemon-ash.gif); 
+}
+.naruto4:hover{
+    content: url(../img/Naruto_Shippuden_Ultimate_Ninja_Storm_4_All_Team_Ultimate_Jutsus.gif); 
+}
+.narutoshippuden:hover{
+    content: url(../img/narutoshippuden2.gif); 
+}
+.naruto5:hover{
+    content: url(../img/naruto4.gif); 
+}
+.jump:hover{
+    content: url(../img/jump.gif); 
+}
+.addams:hover{
+    content: url(../img/Addams.gif);
+}
+.stranger:hover{
+    content: url(../img/6ae5afdcad02c7be44df2d9b6f8612d1.gif);
+}
 @media (max-width:500px) {
     .logo{
         width: 80px;
